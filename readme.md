@@ -61,5 +61,5 @@ To customize the test, you can modify the following parameters in the `start_tes
 - spawn-rate: The spawn rate for users during the test.
 
 # Results
-Results of the test will be collected in the {profile} directory. 
+Results of the test will be collected in the `{profile}` directory. 
 The test results can be analyzed using the Locust web interface or other visualization tools.
