@@ -14,7 +14,7 @@ python3 start_test.py {profile_name}
 This command will use the profile with the same name `{profile}.py` and will collect the results in the directory with `{profile}` name. 
 If you run the script again, the results will be recreated - ⚠️ you will lose privious data.
 
-You can set the number of workers, users, and the spawn rate in the start_test.py file.
+You can set the number of workers, users, and the spawn rate in the `start_test.py` file.
 
 To specify a specific method to test, modify the eth_requests list in the corresponding profile file, such as bsc.py. For example:
 
