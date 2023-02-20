@@ -56,10 +56,9 @@ class BSCProfile(EthereumUser):
 
 # Configuring the Test
 To customize the test, you can modify the following parameters in the start_test.py file:
-
---worker: The number of workers to run the test.
---user: The number of users to simulate during the test.
---spawn-rate: The spawn rate for users during the test.
+- worker: The number of workers to run the test.
+- user: The number of users to simulate during the test.
+- spawn-rate: The spawn rate for users during the test.
 
 # Results
 Results of the test will be collected in the {profile} directory. 
