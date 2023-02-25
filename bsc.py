@@ -33,6 +33,11 @@ class BSCProfile(EthereumUser):
             "eth_call", ETHRequests.eth_call("0xfa500178de024bf43cfa69b7e636a28ab68f2741"),
             weight=29,
             turn_on=True
-        )
+        ),
+        EthRequestConfig(
+            "eth_get_balance", ETHRequests.eth_get_balance("0xfa500178de024bf43cfa69b7e636a28ab68f2741"),
+            weight=11,
+            turn_on=True
+        ),
     ]
     tasks = [get_task(request) for request in eth_requests if request.turn_on]
