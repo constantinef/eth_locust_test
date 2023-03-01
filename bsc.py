@@ -35,7 +35,7 @@ class BSCProfile(EthereumUser):
             turn_on=True
         ),
         EthRequestConfig(
-            "eth_get_balance", ETHRequests.eth_get_balance("0xfa500178de024bf43cfa69b7e636a28ab68f2741"),
+            "eth_get_balance", ETHRequests.get_balance("0xfa500178de024bf43cfa69b7e636a28ab68f2741"),
             weight=11,
             turn_on=True
         ),
